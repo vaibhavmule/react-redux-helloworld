@@ -4,6 +4,7 @@
   "description": "Hello, World! app in React and Redux",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server.js"
   },
   "author": "Vaibhav Mule",
