@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Hello = ({ onClick, message }) => {
   return (
@@ -9,10 +10,10 @@ const Hello = ({ onClick, message }) => {
   )
 }
 
-// todo
-// Hello.propTypes = {
-//   onClick: PropTypes.func.isRequired,
-//   message: PropTypes.string.isRequired
-// }
+
+Hello.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  message: PropTypes.string.isRequired
+}
 
 export default Hello
