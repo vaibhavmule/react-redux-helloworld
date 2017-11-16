@@ -1,5 +1,7 @@
 # react-redux-helloworld
-Hello, World! app in React and Redux
+Hello, World! app in React and Redux.
+
+Now using `create-react-app`
 
 ## Run the app
 
