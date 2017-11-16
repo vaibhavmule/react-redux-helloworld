@@ -9,9 +9,10 @@ const Hello = ({ onClick, message }) => {
   )
 }
 
-Hello.propTypes = {
-  onClick: PropTypes.func.isRequired,
-  message: PropTypes.string.isRequired
-}
+// todo
+// Hello.propTypes = {
+//   onClick: PropTypes.func.isRequired,
+//   message: PropTypes.string.isRequired
+// }
 
 export default Hello
