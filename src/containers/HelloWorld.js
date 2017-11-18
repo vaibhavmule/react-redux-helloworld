@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { HELLO_WORLD } from './../actions'
+import { helloWorld } from './../actions'
 import Hello from './../components/Hello'
 
 const mapStateToProps = (state, ownProps) => {
@@ -10,9 +10,7 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
-    onClick: () => {
-      dispatch({ type: HELLO_WORLD })
-    }
+    onClick: () => dispatch(helloWorld()),
   }
 }
 
