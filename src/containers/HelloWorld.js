@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { helloWorld } from './../actions'
+import { helloWorld, reset } from './../actions'
 import Hello from './../components/Hello'
 
 const mapStateToProps = (state, ownProps) => {
@@ -11,6 +11,7 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     onClick: () => dispatch(helloWorld()),
+    reset: () => dispatch(reset())
   }
 }
 
