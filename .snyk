@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:content-type-parser:20170905':
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-01-26T12:00:34.058Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-01-26T12:00:34.059Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-01-26T12:00:34.059Z'
+patch: {}
